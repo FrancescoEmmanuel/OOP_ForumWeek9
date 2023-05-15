@@ -14,5 +14,15 @@ Example of this from the above scenario: Some classes that can be created are 'P
 
 Using the principles of inheritance, we can first create a GUI class which contains all the basic properties of a GUI that the different modules may have in common. We can then create classes for each modules that inherits the first/basic GUI class containing the basic feautures of the GUI, and then add special/specific features that the specific modules have. <br>
 
-Example: We first create a base class for the GUI, the sales module will then inherit this base class and have a 'calculate average sales/month' method added , while the salary module will inherit the base class and have a 'view highest salary' method added. 
+Example: 
+We first create a base class for the GUI called 'baseGUI':
+1.The sales module will then inherit the basic properties and methods from 'baseGUI' and have a 'calculate average sales/month' method added.
+2. salary module will then inherit the basic properties and methods from 'baseGUI and have a 'view highest salary' method added. 
+
+### (c) Describe how the use of libraries can facilitate the development of programs like this company’s administration program. (3 points)
+
+By offering pre-written, reusable code, libraries can make it easier to develop this company's administration program. This can ensure that the program is well-written and free of bugs while also saving time and effort. For instance, if the company uses a library to offer the GUI code, they would avoid having to start from scratch, which then saves time and effort. 
+
+
+
 
